@@ -6,6 +6,7 @@ title {
     font-family: Arial;
     text-transform: uppercase;
 }
+/*-- name */
 h1 {
     color: #33485e !important;
   font-size: 3em;
@@ -13,6 +14,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+/*-- sections titles */
 h2 {
     color: #33485e; 
   font-size: 1.5em;
@@ -20,13 +22,19 @@ h2 {
   font-weight: bold;
   font-family: Arial;
   text-align: center;
-  
+  text-transform: uppercase;
 }
+/*-- organizations */
+h3 {
+    font-size: 1.5em;
 
-h3
-{
-    
+
 }
+/*-- job titles */
+h4{
+
+}
+/*-- info */
 p{
     color: #33485e;
   font-size: 1em;
