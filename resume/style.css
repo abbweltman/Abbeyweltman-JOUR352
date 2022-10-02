@@ -7,7 +7,7 @@ title {
     text-transform: uppercase;
 }
 /*-- name */
-.name {
+#name {
     color: #33485e !important;
   font-size: 3em;
   font-family: Arial,;
