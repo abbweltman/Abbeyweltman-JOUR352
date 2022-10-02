@@ -13,7 +13,7 @@ title {
     padding-bottom: 50px;
 }
 /*-- name */
-h1 {
+#name {
     color: #33485e !important;
   font-size: 3em;
   font-family: Arial,;
@@ -27,7 +27,7 @@ h1 {
 
 }
 /*-- sections titles */
-h2 {
+#sectionheaders {
     color:white; 
   font-size: 1.5em;
   background-color: #33485e;
@@ -53,7 +53,7 @@ h4{
     font-weight: 600;
 }
 /*-- job dates */
-h5 {
+#date {
     font-weight: 400;
     font-size: 1em;
     margin: 10px 0px;
