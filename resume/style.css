@@ -7,21 +7,33 @@ title {
     text-transform: uppercase;
 }
 /*-- name */
-h1 {
+.name {
     color: #33485e !important;
   font-size: 3em;
   font-family: Arial,;
   text-align: center;
   text-transform: uppercase;
+  border: 1px;
+  border-color: #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+
 }
 /*-- sections titles */
-h2 {
+.sectionheaders {
     color:white; 
   font-size: 1.5em;
   background-color: #33485e;
   font-weight: 400;
   font-family: Arial;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 /*-- organizations */
 h3 {
@@ -31,12 +43,14 @@ h3 {
 }
 /*-- job titles */
 h4{
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 600;
 }
+/*-- job dates */
 h5 {
     font-weight: 400;
     font-size: 1em;
+    margin: 10px 0px;
 }
 /*-- info */
 p{
