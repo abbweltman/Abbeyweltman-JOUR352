@@ -13,7 +13,7 @@ title {
     padding-bottom: 50px;
 }
 /*-- name */
-#name {
+h1 {
     color: #33485e !important;
   font-size: 3em;
   font-family: Arial,;
@@ -27,7 +27,7 @@ title {
 
 }
 /*-- sections titles */
-.sectionheaders {
+h2 {
     color:white; 
   font-size: 1.5em;
   background-color: #33485e;
