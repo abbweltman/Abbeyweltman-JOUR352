@@ -53,7 +53,7 @@ h4{
     font-weight: 600;
 }
 /*-- job dates */
-#date {
+.date {
     font-weight: 400;
     font-size: 1em;
     margin: 10px 0px;
