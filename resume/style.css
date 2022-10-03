@@ -64,12 +64,11 @@
 /*-- info */
 .description {
   font-size: 1em;
-  background-color: #33485e;
+  color: #33485e;
   font-weight: bold;
   font-family: Arial;
   text-align: left; 
   margin: 10px 0px;
-  color: white;
 }
 
 .menu {
