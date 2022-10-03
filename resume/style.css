@@ -1,15 +1,18 @@
 
 /*--This are my styles for my resume */
-title {
+#title {
     color: #33485e;
     font-size: 1.5em;
     font-family: Arial;
     text-transform: uppercase;
+    font-weight: 600px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
 }
-.container {
-    width: 100%
+#container {
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-bottom: 50px;
 }
 /*-- name */
@@ -27,7 +30,7 @@ title {
 
 }
 /*-- sections titles */
-.sectionheaders {
+.sectionheader {
     color:white; 
   font-size: 1.5em;
   background-color: #33485e;
@@ -56,14 +59,32 @@ title {
 .date {
     font-weight: 400;
     font-size: 1em;
-    margin: 10px 0px;
+    margin: 2px 0px;
 }
 /*-- info */
-p{
+.description {
     color: #33485e;
   font-size: 1em;
   background-color: #33485e;
   font-weight: bold;
   font-family: Arial;
   text-align: center; 
+  margin: 10px 0px;
+}
+
+.menu {
+    display: inline;
+}
+#degrees{
+    margin: 5px 0px 0px 0px;
+}
+#do {
+    margin: 5px 0px 0px 0px;
+}
+.top
+{
+ width: 60%;
+ min-width: 300px;  
+ margin: 0px auto; 
+ margin-bottom: 30px;
 }
