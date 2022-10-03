@@ -48,7 +48,7 @@ title {
 
 }
 /*-- job titles */
-h4{
+.organization {
     font-size: 1.25em;
     font-weight: 600;
 }
