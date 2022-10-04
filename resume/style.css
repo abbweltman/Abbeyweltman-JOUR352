@@ -68,11 +68,14 @@
   font-weight: bold;
   font-family: Arial;
   text-align: left; 
-  margin: 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .menu {
     display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 #degrees{
     margin: 5px 0px 0px 0px;
@@ -80,8 +83,7 @@
 #do {
     margin: 5px 0px 0px 0px;
 }
-.top
-{
+.top{
  width: 60%;
  min-width: 300px;  
  margin: 0px auto; 
