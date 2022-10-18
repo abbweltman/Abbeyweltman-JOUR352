@@ -1,14 +1,16 @@
+<!--headerstyles-->
 h1 {
     font: serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 h2 {
     font: serif;
     font-size: 30px;
 }
+<!--bodystyles-->
 p {
     font: helvetica, arial, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
 }
 #content {
     text-align: center;
