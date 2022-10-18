@@ -1,0 +1,15 @@
+h1 {
+    font: serif;
+    font-size: 30px;
+}
+h2 {
+    font: serif;
+    font-size: 30px;
+}
+p {
+    font: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+#content {
+    text-align: center;
+}

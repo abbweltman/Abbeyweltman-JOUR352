@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1674" height="142" viewBox="0 0 1674 142">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1674" height="142"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1674" height="142" fill="#4a7ccb"/>
+    <text id="Weltman_Times_" data-name="Weltman Times " transform="translate(473 98)" fill="#f4f4f8" font-size="100" font-family="HelveticaNeue-MediumItalic, Helvetica Neue" font-weight="500" font-style="italic"><tspan x="0" y="0">Weltman Times </tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="473" transform="translate(0.5 71.5)" fill="none" stroke="#faf5f5" stroke-width="7"/>
+    <line id="Line_2" data-name="Line 2" x2="501" y2="0.5" transform="translate(1173.5 71)" fill="none" stroke="#faf5f5" stroke-width="7"/>
+  </g>
+</svg>
