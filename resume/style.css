@@ -15,19 +15,9 @@
     margin: 0px auto;
     padding-bottom: 50px;
 }
-/*-- name */
-#name {
-    color: #33485e !important;
-  font-size: 3em;
-  font-family: Arial,;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px;
-  border-color: #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-
+.jumbotron {
+    text-align: center;
+    
 }
 /*-- sections titles */
 #sectionheader {
