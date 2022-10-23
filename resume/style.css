@@ -19,8 +19,8 @@
 /*-- sections titles */
 #sectionheader {
     color:#33485e; 
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 450;
   font-family: Arial;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -75,8 +75,8 @@
 }
 /*-- info */
 .description {
-  font-size: 1em;
-  color: #33485e;
+  font-size: 1.5em;
+  color: black;
   font-weight: bold;
   font-family: Arial;
   text-align: left; 
@@ -91,9 +91,11 @@
 }
 #degrees{
     margin: 5px 0px 0px 0px;
+    font-size: 1.5em;
 }
 #do {
     margin: 5px 0px 0px 0px;
+    font-size: 1.5em;
 }
 .top{
  width: 60%;
