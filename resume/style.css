@@ -18,9 +18,8 @@
 
 /*-- sections titles */
 #sectionheader {
-    color:white; 
+    color:#33485e; 
   font-size: 1.5em;
-  background-color: #33485e;
   font-weight: 400;
   font-family: Arial;
   text-transform: uppercase;
@@ -30,6 +29,32 @@
   margin-right: 0px;
   width: 70%;
   min-width: 300px;
+}
+.exp1 {
+    border: 20px;
+    border-style: solid;
+    border-color: #33485e;
+
+}
+.exp2 {
+    border: 20px;
+    border-style: solid;
+    border-color: #33485e;
+}
+.exp3 {
+    border: 20px;
+    border-style: solid;
+    border-color: #33485e;
+} 
+.edu {
+    border: 20px;
+    border-style: solid;
+    border-color: #33485e;  
+}
+.skill {
+    border: 20px;
+    border-style: solid;
+    border-color: #33485e;  
 }
 /*-- organizations */
 .jobtitles {
@@ -60,7 +85,7 @@
 
 .menu {
     display: inline;
-    text-align: center;
+    text-align: right;
     margin: 0px;
     padding: 0px;
 }
