@@ -9,16 +9,13 @@
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-#container {
+#container-fluid {
     width: 100%;
     max-width: 1200px;
     margin: 0px auto;
     padding-bottom: 50px;
 }
-.jumbotron {
-    text-align: center;
-    
-}
+
 /*-- sections titles */
 #sectionheader {
     color:white; 
