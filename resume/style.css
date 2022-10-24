@@ -9,6 +9,9 @@
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
+#topper {
+    width: 100%;
+}
 #container-fluid {
     width: 100%;
     max-width: 1200px;
