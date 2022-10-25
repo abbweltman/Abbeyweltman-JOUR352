@@ -12,37 +12,59 @@
     <link rel="stylesheet" href="style.css">
    <!-- I built this myself! -->
   <body> 
-    <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Abbey Weltman </a>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Bio and Contact Info</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Education</a></li>
-           <li><a href="#">Skills</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Abbey Weltman</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Bio and Contact info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience </a>
+            </li>
+            <a class="nav-link" href="#"> Education </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Skills
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Computer Skills </a></li>
+                <li><a class="dropdown-item" href="#">Published Work </a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
+    <div class="container-fluid">
     <img src="resmast.svg" id="topper">
-  </head>
+
 <!-- I built this myself! -->
-  <body> 
+
       <div class="row">
+        <div class="col">
         <h3>Contact Info</h3>
         <div class="col-sm-4" style="background-color:rgb(243, 138, 18);">  
-          <ul> <a href=“https://twitter.com/abbeyweltmann”>Twitter: @abbeyweltmann</a></ul> 
-          <ul><a href="www.linkedin.com/in/abbey-weltman"> Linkedin: Abbey Weltman</a></ul>
-          <ul><a href=“https://github.com/abbweltman>Github: abbweltman </a></ul> 
+          <ul> <a href="https://twitter.com/abbeyweltmann">Twitter: @abbeyweltmann</a></ul> 
+          <ul><a href="https://www.linkedin.com/in/abbey-weltman"> Linkedin: Abbey Weltman</a></ul>
+          <ul><a href="https://github.com/abbweltman">Github: abbweltman </a></ul> 
           <ul><mark>abbeyweltman@gmail.com</mark></ul></div>
+          <div class="col">
           <h3>Bio </h3>
         <div class="col-sm-4" style="background-color:rgb(243, 138, 18);"><div class="top"><b>I am a student at the University of Maryland persuing a degree in Journalism and Buisness.  I enjoy writing, public speaking, graphic design, business and networking. I discovered that these skills could lead to a plethora of careers I’m interested in exploring. </b></div></div>
-        </div>
-      
-    
-      </ul><br></br>
-    
-   <!-- headhsot -->
+        </div><br>
+  
      <!-- info start -->
   <div id="sectionheader">Experience:</div>
   <div class="exp1">
@@ -54,7 +76,7 @@
     <li>Strategized and collaborated with board members on creating a schedule for buy-seller networking meetings. </li>
     <li>Became familiarized with company software to register attendees for the trade show and monitored memberships</li>
         <li>Assisted on tours and oversaw cohesiveness of the show's seminar schedule.</li>
-</ul><br></br>
+</ul><br>
 
   <div class="jobtitles"><i>VP of Social/Risk Responsibility (Executive Board)</i></div>
   <div class="organization"><b>Alpha Epsilon Phi</b></div>
@@ -65,11 +87,11 @@
         <li>Attend bi-weekly meetings with university representatives to discuss and construct security plans to improve campus safety</li>
         <li>coordinated and created social events to create relationships with other greek chapters on campus.</li>
       </ul>
-    <br></br>
+    <br>
     
   <div class="jobtitles"><i>Staff Writer</i></div>
   <div class="organization"><b>The Campus Trainer</b></div>
-  <div class="date"><b>August 2021- January 2021</div>
+  <div class="date"><b>August 2021- January 2021</b></div>
   <ul class="description">
         <li>Ascertained quantitative trend research for multiple global issues to then be converted into compelling articles</li>
         <li>Investigated and researched breaking news at the university level through interviewing 30+ subjects</li>
@@ -77,7 +99,7 @@
     </ul></div>
     <div id="sectionheader"> Education:</div>
     <div class="exp1">
-    <p><b>University of Maryland in College Park</b><p>
+    <div class="jobtitles"><b>University of Maryland in College Park</b></div>
    <ul id="degrees">
      <li>Bachelor of Science Journalism </li>
      <li>Graduating May 2024 </li>
@@ -87,11 +109,11 @@
  </ul></div>
     <div id="sectionheader">Skills:</div>
     <div class="exp1">
-        COMPUTER SKILL LEVEL <br></br>
+      <div class="jobtitles"> COMPUTER SKILL LEVEL <br></div>
    <div id="degrees"> 
-        Certified: Adobe Photoshop, Adobe Lightroom <br></br>
+        Certified: Adobe Photoshop, Adobe Lightroom <br>
         Proficient: Adobe Illustrator, Microsoft Excel, Microsoft PowerPoint 
-   </div></div><br></br>
+   </div></div><br>
    <div id="sectionheader">Links to Published Work</div>
    <div class="row">
     <div class="col-sm-8" style="background-color:rgb(243, 138, 18);">
@@ -101,6 +123,5 @@
   </div>
   <div class="mt-4 p-5 bg-light text-dark"> © 2022 Abbey Weltman (“All Rights Reserved”) </div>
     <!-- container stop -->
-  </body>
 </div>
-</html>
+
