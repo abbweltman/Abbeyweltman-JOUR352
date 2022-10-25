@@ -37,27 +37,6 @@
     border: 20px;
     border-style: solid;
     border-color: #33485e;
-
-}
-.exp2 {
-    border: 20px;
-    border-style: solid;
-    border-color: #33485e;
-}
-.exp3 {
-    border: 20px;
-    border-style: solid;
-    border-color: #33485e;
-} 
-.edu {
-    border: 20px;
-    border-style: solid;
-    border-color: #33485e;  
-}
-.skill {
-    border: 20px;
-    border-style: solid;
-    border-color: #33485e;  
 }
 /*-- organizations */
 .jobtitles {
@@ -93,10 +72,6 @@
     padding: 0px;
 }
 #degrees{
-    margin: 5px 0px 0px 0px;
-    font-size: 1.5em;
-}
-#do {
     margin: 5px 0px 0px 0px;
     font-size: 1.5em;
 }
