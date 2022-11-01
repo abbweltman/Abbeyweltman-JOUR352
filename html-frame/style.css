@@ -10,8 +10,24 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
+.chapterhead {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-style: bold;
+}
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 180%;
+}
+.img-fluid {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.caption {
+    font-style: italic;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
