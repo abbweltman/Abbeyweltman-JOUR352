@@ -1,0 +1,10 @@
+.headline {
+    font-size: 2em;
+    color: #48b44c;
+    text-align: center;
+}
+
+#content {
+    margin-left: 50px;
+    padding-left: 15px;   
+}
