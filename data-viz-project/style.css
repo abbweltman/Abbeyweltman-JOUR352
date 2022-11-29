@@ -3,8 +3,21 @@
     color: #48b44c;
     text-align: center;
 }
+.byline {
+    text-align: center;
+}
 
 #content {
     margin-left: 50px;
     padding-left: 15px;   
+}
+
+p. {
+    font-size: 1.5em;
+
+}
+
+.subhead {
+    font-size: 1.5em;
+    color: #48b44c; 
 }
