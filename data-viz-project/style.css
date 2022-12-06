@@ -1,35 +1,73 @@
+.container-fluid {
+max-width: 100%;
+}
+
+body {
+    font-family: "eb garamond", sans-serif;
+}
 .headline {
     font-size: 2.5em;
     color: #48b44c;
     text-align: center;
+    font-family:"eb garamond", sans-serif;
+    font-weight: 600 bold;
+}
+
+#border {
     border: 10px;
     border-style: solid;
-    border-color: black;
+    border-color: #2596be;
+    padding: 20px;
 }
-.head {
-    width: 60%;
+#head {
+    width: 100%;
     min-width: 300px;  
     margin: 0px auto; 
     margin-bottom: 30px;
 }
 .byline {
     text-align: center;
+    font-size: 2em;
 }
 
+#center {
+    text-align: center;
+
+}
 #content {
     width: 100%;
     max-width: 1200px;
     margin: 2px auto;
     padding-bottom: 50px;
-    font-family: 'Montserrat', sans-serif;
 }
 
+#title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
 .p {
     font-size: 1em;
+    font-weight: normal;
+  text-align: left; 
+  margin: 20px 0px 0px 0px;
 
 }
 
 .subhead {
     font-size: 1.5em;
     color: #48b44c; 
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
 }
+blockquote {
+    font-size: 1.5em;
+ font-weight: bold;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ color: red;
+ margin-left: 50px;
+ padding-left: 15px;
+ border-left: 4px solid #ccc;
+ } 
